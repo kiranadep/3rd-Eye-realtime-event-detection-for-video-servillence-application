@@ -1,4 +1,4 @@
-# 3rd Eye Real-time Event Detection for Video Surveillance Application
+# The 3rd Eye Real-time Event Detection for Video Surveillance Application
 
 3rd Eye is a real-time event detection video surveillance application that monitors video feeds, detects fires, and alerts users instantly. Built as a web application using Electron, it can be converted into a desktop application for enhanced accessibility and usability.
 # Features
