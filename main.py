@@ -40,12 +40,8 @@ class Stream:
     def processing(self,rtsp_url=None):
         global recording, count, fps
 
-        # cap = cv2.VideoCapture(0)
-        if rtsp_url:
-            cap = cv2.VideoCapture(rtsp_url)
-        else:
+        cap = cv2.VideoCapture(0)
 
-            cap = cv2.VideoCapture('D:\courses\web\\application\\third-eye-app\\new1.mp4')
 
 
         if not cap.isOpened():
