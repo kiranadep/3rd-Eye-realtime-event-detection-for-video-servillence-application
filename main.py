@@ -85,7 +85,7 @@ class Stream:
                     start_recording_time = time.time()
                     recording = True
                 
-                    API_KEY = "o.fzda9Ib4Dp0VcccOOAK3vcQva652Tk5R"
+                    API_KEY = "***********************" #add push bullet API
                     txt = "Fire Detected"
                     pb = Pushbullet(API_KEY)
                     push = pb.push_note('from 3RD EYE',txt)
